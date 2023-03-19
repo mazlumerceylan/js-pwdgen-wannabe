@@ -17,24 +17,27 @@ Consegna: Chiedi all´utente i suoi dati personali (riportati sotto) e stampa tu
 
 const name = prompt('Inserisci il tuo nome:')
 
-console.log(name)
+console.log(name);
 
 
 
 
 const LastName = prompt('Inserisci il tuo cognome:')
 
-console.log(LastName)
+console.log(LastName);
 
 
 
 
 const FavoriteColor = prompt('Il tuo colore preferito:')
 
-console.log(FavoriteColor)
+console.log(FavoriteColor);
 
 
 
 const age = prompt('Inserisci la tua eta')
 
-console.log(age)
+console.log(age);
+
+
+document.write(name + LastName + FavoriteColor + age)
