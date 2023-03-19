@@ -13,3 +13,28 @@ Consegna: Chiedi all´utente i suoi dati personali (riportati sotto) e stampa tu
 5. Stampare tutto sulla pagina
 
 */
+
+
+const name = prompt('Inserisci il tuo nome:')
+
+console.log(name)
+
+
+
+
+const LastName = prompt('Inserisci il tuo cognome:')
+
+console.log(LastName)
+
+
+
+
+const FavoriteColor = prompt('Il tuo colore preferito:')
+
+console.log(FavoriteColor)
+
+
+
+const age = prompt('Inserisci la tua eta')
+
+console.log(age)
